@@ -1,0 +1,12 @@
+<p>students works!</p>
+
+<ol>
+    <li *ngFor = "let student of studentData">
+        {{student.id}},
+        {{student.name}},
+        {{student.address}}
+    </li>
+</ol>
+
+<h2>Weather in Galway</h2>
+{{weatherData[0].main}},{{weatherData[0].description}}
